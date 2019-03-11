@@ -8,6 +8,16 @@
 import NavBar from '@/components/NavBar.vue';
 
 export default {
+    head: () => ({
+        titleTemplate: '%s — Events',
+        meta: [
+            {
+                hid: 'description',
+                name: 'description',
+                content: 'Place where u can find events in your neghbour'
+            }
+        ]
+    }),
     components: {
         NavBar
     }
