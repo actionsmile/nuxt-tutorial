@@ -1,4 +1,6 @@
 <template lang="pug">
-    div
-        nuxt
+    section.hero
+        .hero-body
+            .container
+                nuxt/
 </template>
